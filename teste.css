@@ -1,0 +1,355 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Big Shoulders Display", cursive;
+  height: 100px;
+}
+.banner {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  width: 100%;
+}
+.banner .content {
+  position: relative;
+  z-index: 1;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+.banner .content h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 5.5em;
+  text-transform: uppercase;
+  color: #ffff;
+}
+.banner .content p {
+  font-size: 1.5em;
+  color: #ffff;
+}
+.banner .content img {
+  width: 40px;
+  height: 40px;
+}
+/* Reset de estilos */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul, li, ol {
+  list-style: none;
+  
+}
+
+a {
+  text-decoration: none;
+  margin-top: 3%;
+}
+title{
+  text-align: center;
+  margin-top: 10%;
+  
+}
+     
+/* Estilos para o header */
+.header {
+  background-color: #000000; /* Cor de fundo */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+  flex-wrap: wrap;
+  align-items: center;
+  
+  padding: 15px 0;
+  margin-bottom: 20px;
+}
+
+/* Estilos para o logotipo */
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #000000; /* Cor do texto */
+  margin-bottom: 10px;
+}
+
+/* Estilos para a lista de navegação */
+.nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-left: 17%;
+}
+
+.nav li {
+  display: inline;
+  margin-right: 20px; /* Espaçamento entre os itens da lista */
+}
+
+
+/* Configurações gerais */
+body, main {
+  margin: 0 auto;
+  font-family: 'Roboto', 'Helvetica', Arial, sans-serif;
+  background-color: #fff;
+  color: #1D1D1F;
+  
+}
+
+/* Estilos do cabeçalho */
+header {
+  position: relative;
+  height: 100px;
+  width: 100%;
+  z-index: 10;
+  background-color:#ffffff;
+ 
+}
+
+.header-wrapper {
+  text-align: center;
+  line-height: 50px;
+  font-size: 30px;
+
+}
+
+.header-list {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+  
+  
+}
+
+.header-list li {
+  margin: 0;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  color: #000;
+  margin-left: -15%;
+}
+/*MEXER AQUI AS LINHAS DO HEADER*/
+.header-list li a {
+  text-decoration: none;
+  color: #000000;
+  margin-top: 40px;
+  font-size: 17px;
+  display: list-item;
+  text-align: center;
+  opacity: 1;
+ 
+}
+
+.header-list a {
+  margin-left: 50px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  line-height: 25px;
+  padding: 0 15px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+
+  
+}
+
+.logo {
+  width: 100px;
+  margin-bottom: 10px;
+  margin-top: 10%;
+ margin-left: 40%;
+ position: initial;
+
+}
+
+span {
+  margin-left: 20px;
+  float: left;
+}
+
+/* Estilos da seção de imagem */
+.image-container {
+  cursor: pointer;
+}
+
+.iphone-12-pro {
+  height: 640px;
+  width: 100%;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.iphone-12-pro .title {
+  text-align: center;
+  margin-top: 50%;
+}
+
+.iphone-12-pro .title h1 {
+  font-size: 60px;
+  color: rgba(14, 13, 13, 0.897);
+  font-weight: 700;
+  margin-top: -50%;
+}
+
+.iphone-12-pro .title p {
+  font-size: 30px;
+  font-weight: normal;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+/* Estilos da seção "Por dentro de tudo+" */
+.title .hello {
+  text-align: center;
+  margin-top: 200px;
+  font-size: 80px;
+  color: rgba(0, 0, 0, 0.897);
+  font-weight: 700;
+}
+
+.title .A {
+  text-align: center;
+  font-size: 30px;
+  font-weight: normal;
+  margin-top: 20px;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+
+
+
+/*Footer*/
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+  background-color: #ffffff;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #ffffff;
+    padding: 70px 0;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #9900ff;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgb(255, 255, 255);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+.social-links a {
+    display: inline-block;
+    margin-right: 10px; /* Adicione um espaçamento à direita para separar a imagem do ícone */
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+
+/*responsive*/
+@media(max-width: 767px){
+    .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+    .footer-col{
+    width: 100%;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
